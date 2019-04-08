@@ -1,0 +1,34 @@
+extends ../layout
+
+block content
+  div.jumbotron.jumbotron-fluid
+    div.container
+      h1.display-3 #{data.technique.name}
+      p.lead #{data.technique.intro}
+  div.container-fluid
+    include ../includes/components/technique/real_world_apps
+    h2 Underlying Rationale
+    .row
+      .col-12 !{rationale}
+    include ../includes/components/technique/code
+    include ../includes/components/technique/scorecard
+    h2 Our Recommendation
+    .row
+      div(class='col-12 col-sm-6')
+        h3 Python
+        div(class=data.technique.verdict.stars.r < data.technique.verdict.stars.py ? "d-flex justify-content-center align-content-center jumbotron winner": "d-flex justify-content-center align-content-center jumbotron")
+          div(class='d-flex justify-content-around')
+            - i = 0
+            while i < data.technique.verdict.stars.py
+              i(class="fas fa-star")
+              - i++
+        p #{data.technique.verdict.text.py}
+      div(class='col-12 col-sm-6')
+        h3 R
+        div(class=data.technique.verdict.stars.r > data.technique.verdict.stars.py ? "d-flex justify-content-center align-content-center jumbotron winner": "d-flex justify-content-center align-content-center jumbotron")
+          div(class='d-flex justify-content-around')
+            - i = 0
+            while i < data.technique.verdict.stars.r
+              i(class="fas fa-star")
+              - i++
+        p #{data.technique.verdict.text.r}

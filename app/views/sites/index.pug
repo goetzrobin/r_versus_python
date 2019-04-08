@@ -1,0 +1,81 @@
+doctype html
+html
+    head
+        title= 'Python vs. R'
+        link(
+            rel='stylesheet'
+            href='/stylesheets/style.css')
+        meta(charset="utf-8")
+        meta( 
+            http-equiv="X-UA-Compatible" 
+            content="IE=edge")
+        meta( 
+            name="viewport" 
+        content="width=device-width, initial-scale=1")
+        link( 
+            rel="stylesheet" 
+            href="/bootstrap/dist/css/bootstrap.min.css")
+        link( 
+            rel="stylesheet" 
+            href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" 
+            crossorigin="anonymous"
+            )
+        script( type="text/javascript" 
+            src="//cdn.datacamp.com/dcl-react.js.gz")
+        script( 
+            src="/javascripts/dist/jquery.min.js" )
+        script( 
+            src="/bootstrap/dist/js/bootstrap.bundle.js")
+        script(
+            src="/javascripts/main.js"
+            )
+        script(
+            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"
+        )
+    body
+        include ../includes/main/head.pug
+        div
+            .index-img
+                .container
+                    h1 Perseverantia Vincit.
+                    small In English, Perseverance Conquers. With us your business and big data challenges will not only be overcome, but become an integral part of your competitive advantage. This will set you apart from your competitors.
+            .container.p-3.my-3
+                .row
+                    .col-12
+                        h1 Our Expertise
+                .row.my-3
+                    .col-12.col-sm-6.col-md-4.p-3
+                        .index-card
+                                i(class='fab fa-r-project fa-3x')
+                                h4  Data Analysis with R 
+                                p We are analyzing datasets with the help of the R-Language. R is a programming language and free software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing.                     
+                    .col-12.col-sm-6.col-md-4.p-3
+                        .index-card
+                                i(class='fab fa-python fa-3x')
+                                h4  Data Analysis with Python 
+                                p Python is an increasingly popular tool for data analysis. In recent years, a number of libraries have reached maturity. These combine the performance of Python without sacrificing the functionality older programs (in R and Stata) have accumulated over the years. 
+                    .col-12.col-sm-6.col-md-4.p-3
+                        .index-card
+                                i(class='fas fa-rocket fa-3x')
+                                h4  Statistical Analysis and Machine Learning  
+                                p We use a whole spectrum of statistical analysis techniques to analyze your data and retrieve powerful insights. We also leverage state of the art machine learning techniques to deliver analysis that can transform your business. 
+            .index-img-2.my-3
+                .container
+                    h1 Our Work
+                    p 
+                        | As our final project before graduating with a BBA in Management Information Systems we will compare and contrast Python versus R as an analytics platform.
+                        | Our team will become familiar with both languages and then compare them using a standard set of criteria.Sample code will be generated for each platform to perform the same set of tasks to enable
+                        | comparison. In addition, specific strengths and weaknesses of each platform (demonstrated
+                        | through documentation and code examples) will be highlighted.
+            .container.my-3.pb-3
+                h1 About Us
+                p 
+                    | We are a group of five Management Information Systems students
+                    | at Temple University in Philadelphia. We are completing our final project on R
+                    | and Python as tools for data analysis.
+                    | 
+                    | If you want to learn more about the faces behind Conwell Consulting visit our team page.
+
+            .container-fluid.mt-3.pt-3
+                include ../includes/main/foot.pug

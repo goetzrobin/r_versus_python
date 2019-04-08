@@ -1,0 +1,243 @@
+:root {
+  --cherry: #9E1B34;
+  --cherry-dark: #6d1223;
+}
+html {
+  line-height: 2;
+}
+iframe {
+  min-height: 700px;
+  border: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.up {
+  position: relative;
+  top: -33px;
+}
+
+.card {
+  padding: 0;
+  margin-top: 10px;
+}
+
+.card-header {
+  background: #fff;
+  border-bottom: 0;
+}
+
+.card-footer {
+  background-color: #eee;
+}
+
+.real_world_app {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5px;
+  flex-direction: column;
+  border-radius: 4px;
+  height: 175px;
+  width: 175px;
+}
+
+.real_world_app i {
+  display: block;
+  font-size: 40px;
+  text-align: center;
+  color: var(--cherry);
+}
+
+.real_world_app h4 {
+  margin-top: 5px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.table-final {
+  font-weight: bold;
+  color: var(--cherry);
+  border-top: 2px solid #ddd;
+}
+
+.spinner {
+  position: absolute;
+  height: 100%;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  color: var(--cherry);
+}
+
+.footer-link{
+  color: #000;
+}
+.footer-link:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+.mail {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mail i {
+  margin-right: 5px;
+}
+
+.profile-card {
+  height: 350px;
+  width: 350px;
+  padding: 10px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  align-items: center;
+}
+.profile-card a {
+  color: var(--cherry);
+}
+
+.profile-card a:hover {
+  color: var(--cherry-dark);
+  text-decoration: none;
+}
+
+.profile-card i {
+  color: var(--cherry);
+}
+
+.index-img {
+  position: relative;
+  top: -17px;
+  min-height: 500px;
+  background: url("../images/phila/front-facade_dark.jpg");
+  background-size: cover;
+  color: white;
+  padding-top: 100px;
+}
+
+.index-img-2 {
+  position: relative;
+  top: -17px;
+  min-height: 500px;
+  background: url("../images/phila/city_hall.jpg");
+  background-size: cover;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.index-img-2 p {
+  max-width: 800px;
+  font-weight: 200;
+}
+
+.index-img h1 {
+  font-size: 40pt;
+  max-width: 600px;
+  line-height: 0.8;
+}
+
+.index-img small {
+  display: block;
+  max-width: 400px;
+  font-weight: 200;
+}
+.index-card {
+  padding: 30px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-card i {
+  color: var(--cherry);
+}
+.winner {
+  background-color: var(--cherry) !important;
+  color: #FFF;
+}
+
+.toggable {
+  color: var(--cherry);
+}
+
+.toggable:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
+a {
+  color: var(--cherry) !important;
+}
+
+a:hover {
+  cursor: pointer !important;
+  text-decoration: underline !important;
+}
+
+.dropdown-item:active {
+  background-color: #dfdfdf !important;
+}
+
+.carousel-item {
+  height: 500px;
+  background-color: #9E1B34;
+}
+img[alt=explanation] { width: 500px; }
+
+.comparison_detailed_view_metrics {
+  flex: 0 0 25%;
+}
+
+.comparison_detailed_view_techniques {
+  width: 75%;
+  overflow: scroll;
+}
+
+.comparison_th_header_metric {
+  min-width: 200px;
+  height: 100px !important;
+}
+
+.comparison_th_header {
+  min-width: 300px;
+}
+.comparison table {
+  font-size: 0.85rem !important;
+}
+
+.comparison th {
+  height: 50px !important;
+}
+
+.comparison td {
+  height: 125px !important;
+}
+.comparison small {
+  height: 100px !important;
+  overflow: scroll;
+}
+
+.w-15 {
+  width: 15% !important;
+}
+
+.w-05 {
+  width: 5% !important;
+}
+.w-80 {
+  width: 80% !important;
+}
+

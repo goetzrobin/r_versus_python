@@ -1,0 +1,116 @@
+extends ../layout
+
+block content
+    script(
+            src="/javascripts/chart.js"
+        )
+    div.container-fluid
+        .row
+            .col-12.col-lg-6
+                canvas(id="comparison_chart")
+            .col-12.col-lg-6
+                h3 Comparison
+                table.table.col-12
+                    tr
+                        th Metric
+                        th R
+                        th Python
+                    each score in data.scores
+                        tr
+                            td 
+                                a(href = score.url) #{score.name}
+                            td #{score.total_r}
+                            td #{score.total_python}
+        .row.mt-3
+            .col-12
+                h3 Detailed View
+                .d-flex.comparison
+                    .comparison_detailed_view_metrics
+                        table.table
+                            tr
+                                th Metric
+                            tr
+                                th.comparison_th_header_metric Programing Language
+                            each score in data.techniques[0].scores
+                                tr
+                                    td #{score.name}
+                    .comparison_detailed_view_techniques
+                        table.table
+                            tr
+                                each technique in data.techniques
+                                    th.comparison_th_header(colspan=3) #{technique.name}
+ 
+                            tr
+                                each technique in data.techniques
+                                    th.w-15 Python
+                                    th.w-05 R
+                                    th.w-80 Rationale
+                            each score,index in data.techniques[0].scores
+                                tr
+                                each technique in data.techniques
+                                    td #{technique.scores[index].total_python}
+                                    td #{technique.scores[index].total_r}
+                                    td 
+                                        small.d-block #{technique.scores[index].total_rationale}
+        
+        each score,index in data.techniques[0].scores
+            .row
+                .col-12
+                    h3 #{score.name}
+                    .d-flex.comparison
+                        .comparison_detailed_view_metrics
+                            table.table
+                                tr
+                                    th Metric
+                                tr
+                                    th.comparison_th_header_metric Programing Language
+                                each subcategory in score.subcategories
+                                    tr
+                                        td #{subcategory.name}
+                                tr
+                                    th Total Score
+                        .comparison_detailed_view_techniques
+                            table.table
+                                tr
+                                    each technique in data.techniques
+                                        th.comparison_th_header(colspan=3) #{technique.name}
+    
+                                tr
+                                    each technique in data.techniques
+                                        th.w-15 Python
+                                        th.w-05 R
+                                        th.w-80 Rationale
+                                each subcategory,sub_index in score.subcategories
+                                    tr
+                                    each technique in data.techniques
+                                        td #{technique.scores[index].subcategories[sub_index] ? technique.scores[index].subcategories[sub_index].py : "missing"}
+                                        td #{technique.scores[index].subcategories[sub_index] ? technique.scores[index].subcategories[sub_index].r : "missing"}
+                                        td 
+                                            small.d-block #{technique.scores[index].subcategories[sub_index] ? technique.scores[index].subcategories[sub_index].rationale : "missing"}
+                                tr
+                                    each technique in data.techniques
+                                        td #{technique.scores[index].total_python}
+                                        td #{technique.scores[index].total_r}
+                                        td 
+                                            small.d-block #{technique.scores[index].total_rationale}
+  
+        .row.mt-3
+            .col-12
+                h3 Evaluation Rationale
+                div(id="carouselExampleControls" class="carousel slide" data-ride="carousel")
+                    div(class="carousel-inner")
+                        div(class="carousel-item active")
+                            div(class="d-block w-100" src="..." alt="First slide")
+                                h3 Testing
+                        div(class="carousel-item")
+                            div(class="d-block w-100" src="..." alt="Second slide")
+                                h3 Testing 1
+                        div(class="carousel-item")
+                            div(class="d-block w-100" src="..." alt="Third slide")
+                                h3 Testing 2
+                    a(class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev")
+                        span(class="carousel-control-prev-icon" aria-hidden="true")
+                            span(class="sr-only") Previous
+                    a(class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next")
+                        span(class="carousel-control-next-icon" aria-hidden="true")
+                            span(class="sr-only") Next

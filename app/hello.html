@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Python vs. R</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script type="text/javascript" src="//cdn.datacamp.com/dcl-react.js.gz"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--begin header-->
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <h5 class="my-0 mr-md-auto font-weight-normal"><img src='./images/full_logo.png' width="100"></h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" href="#">Features</a>
+            <a class="p-2 text-dark" href="#">Enterprise</a>
+            <a class="p-2 text-dark" href="#">Support</a>
+            <a class="p-2 text-dark" href="#">Pricing</a>
+        </nav>
+    </div>
+    <!-- end header -->
+    <div class='container-fluid'>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-3">Assosiation Rule</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla architecto qui id quos
+                    quaerat consequuntur nobis enim tenetur dolor saepe ex, illum odio? Facilis nemo sint fuga enim a
+                    esse.</p>
+            </div>
+        </div>
+        <div class='container-fluid'>
+            <h2>Real World Applications</h2>
+            <div class='row'>
+                <div class="my-3 col-12 col-sm-4 d-flex justify-content-center align-items-center">
+                    <div class='real_world_app'>
+                        <i class="fas fa-shopping-cart"></i>
+                        <h4>Customer Behavior</h4>
+                    </div>
+                </div>
+                <div class="my-3 col-12 col-sm-4 d-flex justify-content-center align-items-center">
+                    <div class="real_world_app">
+                        <i class="fab fa-amazon"></i>
+                        <h4>Website Recommendations</h4>
+                    </div>
+                </div>
+                <div class="my-3 col-12 col-sm-4 d-flex justify-content-center align-items-center">
+                    <div class="real_world_app">
+                        <i class="fas fa-user-md"></i>
+                        <h4>Medical Diagnosis</h4>
+                    </div>
+                </div>
+            </div>
+            <h2>Underlying Rationale</h2>
+            <div class='row'>
+                <p class='col-12'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga inventore distinctio
+                    sit
+                    aliquid
+                    consequatur tempore amet optio labore, placeat, laboriosam non ea ipsum blanditiis quam modi odio
+                    vel, rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt reiciendis adipisci a
+                    odio
+                    consectetur error molestias hic exercitationem totam molestiae rem porro expedita omnis explicabo
+                    accusamus praesentium, voluptatem dolorum cupiditate.</p>
+            </div>
+
+            <h2>Code</h2>
+            <div class='row mb-2'>
+
+                <div class='col-12'>
+                    <div class='card'>
+                        <h3 class='card-header'>Python</h3>
+                        <iframe class='card-footer' id='iframe1' src="http://localhost:8888/notebooks/Desktop/SPRING_19/MIS4596/final_project/jupyter_notebooks/AssociationRule/py_apriori.ipynb"></iframe>
+
+                    </div>
+                </div>
+
+                <div class='col-12'>
+                    <div class='card'>
+                        <h3 class='card-header'>R</h3>
+                        <iframe class='card-footer' src="http://localhost:8888/notebooks/Desktop/SPRING_19/MIS4596/final_project/jupyter_notebooks/AssociationRule/r_apriori.ipynb"></iframe>
+
+                    </div>
+                </div>
+
+            </div>
+            <h2 class='mt-3'>Scorecard</h2>
+            <div class='row'>
+                <div class='col-12'>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Metric</th>
+                                <th>R</th>
+                                <th>Python</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td scope="row">Intuition</td>
+                                <td>7.6</td>
+                                <td>4.5</td>
+                            </tr>
+                            <tr>
+                                <td scope="row">Code Volume</td>
+                                <td>3.4</td>
+                                <td>7.8</td>
+                            </tr>
+                            <tr class='table-final'>
+                                <td scope="row">Overall Score</td>
+                                <td>3.4</td>
+                                <td>7.8</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <h2>Verdict</h2>
+            <div class='row'>
+                <div class='col-12 col-sm-6'>
+                    <h3>Python</h3>
+                    <div class="d-flex justify-content-center align-content-center jumbotron">
+                        <div class='d-flex justify-content-around'>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quas dolor tempore, nemo at
+                        obcaecati. Repellendus, illum. Ratione praesentium maxime repellat reprehenderit voluptas
+                        distinctio, ducimus excepturi neque sed voluptatibus quae?</p>
+                </div>
+                <div class='col-12 col-sm-6'>
+                    <h3>R</h3>
+                    <div class="d-flex justify-content-center align-content-center jumbotron">
+                        <div class='d-flex justify-content-around'>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quas dolor tempore, nemo at
+                        obcaecati. Repellendus, illum. Ratione praesentium maxime repellat reprehenderit voluptas
+                        distinctio, ducimus excepturi neque sed voluptatibus quae?</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="pt-4 my-md-5 pt-md-5 border-top">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <img class="mb-2" src="./images/full_logo.png" alt="" height="50">
+                    <small class="d-block mb-3 text-muted">&copy; 2017-2018</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Features</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Cool stuff</a></li>
+                        <li><a class="text-muted" href="#">Random feature</a></li>
+                        <li><a class="text-muted" href="#">Team feature</a></li>
+                        <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                        <li><a class="text-muted" href="#">Another one</a></li>
+                        <li><a class="text-muted" href="#">Last time</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Resource</a></li>
+                        <li><a class="text-muted" href="#">Resource name</a></li>
+                        <li><a class="text-muted" href="#">Another resource</a></li>
+                        <li><a class="text-muted" href="#">Final resource</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>About</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="#">Team</a></li>
+                        <li><a class="text-muted" href="#">Locations</a></li>
+                        <li><a class="text-muted" href="#">Privacy</a></li>
+                        <li><a class="text-muted" href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

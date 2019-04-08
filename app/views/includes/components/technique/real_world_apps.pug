@@ -1,0 +1,7 @@
+h2 Real World Applications
+div.row
+    for app in data.technique.real_world_apps 
+        div(class="my-3 col-12 col-sm-4 d-flex justify-content-center align-items-center")
+            div(class='real_world_app shadow-sm')
+                i(class=app.icon_style+ " fa-"+ app.icon_name)
+                h4 #{app.name}
