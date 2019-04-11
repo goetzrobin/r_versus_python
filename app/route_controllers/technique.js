@@ -36,6 +36,7 @@ router.get('/:technique_id', function (req, res, next) {
     ...req.data,
     technique
   };
+  console.log(technique)
   res.render('./sites/technique', {
     data: data,
     rationale: pug.renderFile('./views/rationales/' + technique.rationale + '.pug')
