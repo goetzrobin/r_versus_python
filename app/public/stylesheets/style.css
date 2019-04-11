@@ -28,6 +28,7 @@ iframe {
 }
 
 .card-footer {
+  padding: 0 !important;
   background-color: #eee;
 }
 
