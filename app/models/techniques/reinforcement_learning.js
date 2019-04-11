@@ -145,7 +145,7 @@ var data = {
     ],
     verdict: {
         stars: {
-            r: 5,
+            r: 3,
             py: 4
 
         },
