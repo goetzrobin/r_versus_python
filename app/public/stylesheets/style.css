@@ -191,10 +191,6 @@ a:hover {
   background-color: #dfdfdf !important;
 }
 
-.carousel-item {
-  height: 500px;
-  background-color: #9E1B34;
-}
 img[alt=explanation] { width: 500px; }
 
 .comparison_detailed_view_metrics {
@@ -241,3 +237,23 @@ img[alt=explanation] { width: 500px; }
   width: 80% !important;
 }
 
+.rationale__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rationale {
+  width: 80% !important;
+  background-color: white;
+  padding: 10px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%239E1B34' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+ }
+ 
+ .carousel-control-next-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%239E1B34' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+ }

@@ -9,7 +9,9 @@ h2.mt-3 Scorecard
                 th(style='width: 33%') Rationale
             each score,index in data.technique.scores
                 tr(data-toggle="collapse" data-target=".accordion"+index class="clickable")
-                    td.toggable #{score.name}
+                    td
+                        span.toggable #{score.name} 
+                        small.ml-2 (#{score.weight*100}%)
                     td #{score.total_python}
                     td #{score.total_r}
                     td

@@ -98,16 +98,175 @@ block content
             .col-12
                 h3 Evaluation Rationale
                 div(id="carouselExampleControls" class="carousel slide" data-ride="carousel")
-                    div(class="carousel-inner")
+                    div(class="p-3 carousel-inner")
                         div(class="carousel-item active")
-                            div(class="d-block w-100" src="..." alt="First slide")
-                                h3 Testing
+                            div(class="h-100 w-100 rationale__wrapper")
+                                h4.mb-3 Code Volume and Ease of Use
+                                table.table.rationale
+                                    tr
+                                        th Metric
+                                        th Score
+                                        th Evolution Rationale
+                                    tr
+                                        td Code Volume
+                                        td 0/1
+                                        td 
+                                            small
+                                                | Description: Relative measurement of code volume <br/>
+                                                | 0: This language took more lines to implement the program <br/>
+                                                | 1: This language took fewer lines to implement the program <br/>				
+                                    tr
+                                        td Code Aesthetic
+                                        td 0/2
+                                        td 
+                                            small
+                                                | Description: A numeric representation of visual appeal <br/>
+                                                | 0: Code groups are inseparable and cannot be run alone <br/>
+                                                | 1: Code groups are separable and can be run alone <br/>
+                                                | 2: Code groups contain easily identifiable headers and it is possible to jump quickly to each code block	 <br/>							
+                                    tr
+                                        td Code Clarity
+                                        td 0/2
+                                        td 
+                                            small
+                                                | Description: A numeric representation of visual clarity <br/>
+                                                | 0: Uncommon strategies are used, requiring further analysis of code <br/>
+                                                | 1: Code is conceptually easy to understand after reviewing the program <br/>
+                                                | 2: Code can be understood via a quick glance	 <br/>							
+                                    tr
+                                        td Rating
+                                        td 0/5
+                                        td 
+                                            small
+                                                | Description: Relative measurement of code volume <br/>
+                                                | 0: This language took more lines to implement the program <br/>
+                                                | 1: This language took fewer lines to implement the program <br/>					
                         div(class="carousel-item")
-                            div(class="d-block w-100" src="..." alt="Second slide")
-                                h3 Testing 1
+                            div(class="h-100 w-100 rationale__wrapper")
+                                h4.mb-3 Popularity & Library Availability	
+                                table.table.rationale
+                                    tr
+                                        th Metric
+                                        th Score
+                                        th Evolution Rationale
+                                    tr
+                                        td Popularity
+                                        td 0/1
+                                        td 
+                                            small
+                                                | Description: Relative measurement of real-world use <br/>
+                                                | 0: This language is used less often for this technique <br/>
+                                                | 1: This language is used more often for this technique <br/>					
+                                    tr
+                                        td Library Quality
+                                        td 0/2
+                                        td 
+                                            small
+                                                | Description: Library ease of use evaluation <br/>
+                                                | 0: This language does not contain libraries that were created for this technique <br/>
+                                                | 1: This language has one library created for this technique <br/>
+                                                | 2: This language has multiple libraries that make the technique simple <br/>											
+                                    tr
+                                        td Growth
+                                        td 0/2
+                                        td 
+                                            small
+                                                | Description: Relative measurement of real-world use <br/>
+                                                | 0: This language is declining in popularity globally <br/>
+                                                | 1: This language is growing in popularity globally <br/>
+                                                | 2: This language exceeds 10% growth per year globally	 <br/>											
+                                    tr
+                                        td Rating
+                                        td 0/5
+                                        td 
+                                            small
+                                                | Description: Relative measurement of code volume <br/>
+                                                | 0: This language took more lines to implement the program <br/>
+                                                | 1: This language took fewer lines to implement the program	 <br/>				
                         div(class="carousel-item")
-                            div(class="d-block w-100" src="..." alt="Third slide")
-                                h3 Testing 2
+                            div(class="h-100 w-100 rationale__wrapper")
+                                h4.mb-3 Execution Performance & Output	
+                                table.table.rationale
+                                    tr
+                                        th Metric
+                                        th Score
+                                        th Evolution Rationale
+                                    tr
+                                        td Code Volume
+                                        td 0/1
+                                        td 
+                                            small
+                                                | Description: Relative measurement of code volume <br/>
+                                                | 0: This language took more lines to implement the program <br/>
+                                                | 1: This language took fewer lines to implement the program <br/>				
+                                    tr
+                                        td Code Aesthetic
+                                        td 0/2
+                                        td 
+                                            small
+                                                | Description: A numeric representation of visual appeal <br/>
+                                                | 0: Code groups are inseparable and cannot be run alone <br/>
+                                                | 1: Code groups are separable and can be run alone <br/>
+                                                | 2: Code groups contain easily identifiable headers and it is possible to jump quickly to each code block	 <br/>							
+                                    tr
+                                        td Code Clarity
+                                        td 0/2
+                                        td 
+                                            small
+                                                | Description: A numeric representation of visual clarity <br/>
+                                                | 0: Uncommon strategies are used, requiring further analysis of code <br/>
+                                                | 1: Code is conceptually easy to understand after reviewing the program <br/>
+                                                | 2: Code can be understood via a quick glance	 <br/>							
+                                    tr
+                                        td Rating
+                                        td 0/5
+                                        td 
+                                            small
+                                                | Description: Relative measurement of code volume <br/>
+                                                | 0: This language took more lines to implement the program <br/>
+                                                | 1: This language took fewer lines to implement the program	 <br/>				
+                        div(class="carousel-item")
+                            div(class="h-100 w-100 rationale__wrapper")
+                                h4.mb-3 Scalability & Transferability	
+                                table.table.rationale
+                                    tr
+                                        th Metric
+                                        th Score
+                                        th Evolution Rationale
+                                    tr
+                                        td Code Volume
+                                        td 0/1
+                                        td 
+                                            small
+                                                | Description: Relative measurement of code volume <br/>
+                                                | 0: This language took more lines to implement the program <br/>
+                                                | 1: This language took fewer lines to implement the program	 <br/>			
+                                    tr
+                                        td Code Aesthetic
+                                        td 0/2
+                                        td 
+                                            small
+                                                | Description: A numeric representation of visual appeal <br/>
+                                                | 0: Code groups are inseparable and cannot be run alone <br/>
+                                                | 1: Code groups are separable and can be run alone <br/>
+                                                | 2: Code groups contain easily identifiable headers and it is possible to jump quickly to each code block	 <br/>							
+                                    tr
+                                        td Code Clarity
+                                        td 0/2
+                                        td 
+                                            small
+                                                | Description: A numeric representation of visual clarity <br/>
+                                                | 0: Uncommon strategies are used, requiring further analysis of code <br/>
+                                                | 1: Code is conceptually easy to understand after reviewing the program <br/>
+                                                | 2: Code can be understood via a quick glance	 <br/>							
+                                    tr
+                                        td Rating
+                                        td 0/5
+                                        td 
+                                            small
+                                                | Description: Relative measurement of code volume <br/>
+                                                | 0: This language took more lines to implement the program <br/>
+                                                | 1: This language took fewer lines to implement the program	 <br/>				                                                                                                                                                
                     a(class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev")
                         span(class="carousel-control-prev-icon" aria-hidden="true")
                             span(class="sr-only") Previous

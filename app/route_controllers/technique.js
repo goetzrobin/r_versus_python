@@ -7,15 +7,13 @@ var pug = require('pug');
 router.get('/:technique_id', function (req, res, next) {
   var technique = gdv(req.params.technique_id);
 
-  var total_r = 0;
-  var total_python = 0;
+  var total_r = 0.0;
+  var total_python = 0.0;
 
-  console.log(process.env);
-  
   var jupyter_url = "http://"+"localhost"+":8888/notebooks";
   technique.scores.forEach((score) => {
-    total_r += (parseInt(score.total_r)*score.weight);
-    total_python += (parseInt(score.total_python)*score.weight);
+    total_r += (parseFloat(score.total_r)*score.weight);
+    total_python += (parseFloat(score.total_python)*score.weight);
   })
 
   total_r = total_r.toFixed(1);
@@ -25,6 +23,7 @@ router.get('/:technique_id', function (req, res, next) {
   
   r_source = jupyter_url + technique.code.r;
   py_source = jupyter_url + technique.code.py;
+
 
   technique = {
     ...technique,

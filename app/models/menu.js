@@ -28,6 +28,14 @@ module.exports.getMenu = function getMenu() {
                     name: "Reinforcement Learning",
                     url: "reinforcement_learning"
                 },
+                {
+                    name: "K-Means Clustering",
+                    url: "k_means"
+                },
+                {
+                    name: "Natural Language Processing",
+                    url: "nlp"
+                },
             ]
 
         },

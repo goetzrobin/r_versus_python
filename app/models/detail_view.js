@@ -1,6 +1,8 @@
 var assoc_rule = require("./techniques/assoc_rule");
 var ann = require("./techniques/ann");
 var random_forest = require("./techniques/random_forest");
+var k_means = require("./techniques/k_means");
+var nlp = require("./techniques/nlp");
 var reinforcement_learning = require("./techniques/reinforcement_learning");
 
 
@@ -11,6 +13,8 @@ function getDetailView(technique_id) {
         ann,
         random_forest,
         assoc_rule,
+        k_means,
+        nlp
     }
     return techniques[technique_id];
 }
@@ -20,6 +24,8 @@ function getAllTechniques(asArray){
         ann,
         random_forest,
         assoc_rule,
+        k_means,
+        nlp
     }
     if(asArray){
         var result = []

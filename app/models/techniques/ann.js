@@ -41,13 +41,13 @@ var data = {
                     name: "Code Aesthetic",
                     r: 2,
                     py: 2,
-                    rationale: "As R is an interface to python, both look almost identical"
+                    rationale: ""
                 },
                 {
                     name: "Code Clarity",
                     r: 2,
                     py: 2,
-                    rationale: "As R is an interface to python, both look almost identical"
+                    rationale: ""
                 }
             ]
         },
@@ -59,15 +59,21 @@ var data = {
             total_python: "5",
             subcategories: [{
                     name: "Popularity",
-                    r: 1,
-                    py: 2,
+                    r: 0,
+                    py: 1,
                     rationale: "Keras is built upon Tensorflow, which is a Google framework for ANNs. It's community and support is one of the best in the world. R just provides an interface."
                 },
                 {
-                    name: "Libraries Quality",
+                    name: "Library Quality",
                     r: 1,
-                    py: 3,
+                    py: 2,
                     rationale: "R is only an interface. Python lets you interact with Keras and the underlying Tensorflow."
+                },
+                {
+                    name: "Growth",
+                    r: 0,
+                    py: 2,
+                    rationale: "The Tensorflow framework and Keras are backed by Google and growing rapidly."
                 },
             ]
         },
@@ -92,7 +98,7 @@ var data = {
                     name: "Console Output Clarity",
                     r: 0,
                     py: 2,
-                    rationale: ""
+                    rationale: "R does not provide any output to the Jupyter notebook"
                 },
             ]
         },
@@ -104,15 +110,15 @@ var data = {
             total_python: "5",
             subcategories: [{
                     name: "Transferability",
-                    r: 1,
+                    r: 0,
                     py: 1,
-                    rationale: ""
+                    rationale: "The model can be exported as a python array"
                 },
                 {
                     name: "Scalability",
                     r: 0,
                     py: 2,
-                    rationale: ""
+                    rationale: "We use python under the hood and therefore all scalability and transferability is python based."
                 },
                 {
                     name: "Function Customization",
@@ -131,13 +137,13 @@ var data = {
             subcategories: [{
                     name: "Community Support",
                     r: 0,
-                    py: 1,
-                    rationale: ""
+                    py: 2,
+                    rationale: "Since the R package only supplies a interface to Python, one relies on the Python community."
                 },
                 {
                     name: "Ease of Learning",
-                    r: 2,
-                    py: 2,
+                    r: 1,
+                    py: 1,
                     rationale: ""
                 },
                 {
