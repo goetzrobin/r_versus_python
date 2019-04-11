@@ -80,7 +80,7 @@ var data = {
     {
         name: "Execution Performance & Output",
         total_rationale: "Both are similar in terms of execution (they both use the same python backend.) For jupyter notebooks, the R package has a bug and does not display the output during the training of the model to the notebook",
-        weight: 0.30,
+        weight: 0.25,
         total_r: "3",
         total_python: "5",
         subcategories: [{
@@ -131,7 +131,7 @@ var data = {
     {
         name: "Training & Testing",
         total_rationale: "Both libraries are well documented and easy to use. The community around the python lib is bigger as it does not only provide a cross language interface.",
-        weight: 0.15,
+        weight: 0.20,
         total_r: "4",
         total_python: "5",
         subcategories: [{

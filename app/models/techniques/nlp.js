@@ -26,13 +26,13 @@ var data = {
         scores: [{
             name: "Code Volume and Ease of Use ",
             total_rationale: " Python is overall much clearer than R for readability and clarity of code given R’s reliance on vector notation ",
-            total_r: "5",
-            total_python: "2",
+            total_r: "3",
+            total_python: "4",
             weight: 0.20,
             subcategories: [{
                 name: "Code Volume",
-                r: 0,
-                py: 1,
+                r: 1,
+                py: 0,
                 rationale: " Python has fewer lines of code required to implement a similar procedure "
             }, {
                 name: "Code Aesthetic",
@@ -72,7 +72,7 @@ var data = {
             total_rationale: " Python and R are very similar for these criterion, but Python eeks out a win due to small performance improvements ",
             total_r: "3",
             total_python: "5",
-            weight: 0.30,
+            weight: 0.25,
             subcategories: [{
                 name: "Average Execution Time",
                 r: 0,
@@ -116,7 +116,7 @@ var data = {
             total_rationale: " Given that Python was simpler to learn, it took less time to become proficient with the language ",
             total_r: "3",
             total_python: "5",
-            weight: 0.15,
+            weight: 0.20,
             subcategories: [{
                 name: "Ease of Learning",
                 r: 0,

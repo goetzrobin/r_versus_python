@@ -75,7 +75,7 @@ var data = {
             {
                 name: "Execution Performance & Output",
                 total_rationale: "As shown in the JupyterNotebook examples, the default output for KMeans Clustering in Python looks immeasurably better than the output produced by R. You could take the plot you’ve created in Python and present it to an executive. You could not do this with R. The clustered scatter plot that it produces would need to be modified drastically before presenting it to anyone.",
-                weight: 0.30,
+                weight: 0.25,
                 total_r: "2.5",
                 total_python: "4",
                 subcategories: [{
@@ -126,7 +126,7 @@ var data = {
             {
                 name: "Training & Testing",
                 total_rationale: "Both libraries are well documented and easy to pick up quickly and to learn.",
-                weight: 0.15,
+                weight: 0.20,
                 total_r: "5",
                 total_python: "5",
                 subcategories: [{

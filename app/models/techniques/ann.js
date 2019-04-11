@@ -41,13 +41,13 @@ var data = {
                     name: "Code Aesthetic",
                     r: 2,
                     py: 2,
-                    rationale: ""
+                    rationale: "Basically equal as they implement same interface"
                 },
                 {
                     name: "Code Clarity",
                     r: 2,
                     py: 2,
-                    rationale: ""
+                    rationale: "Same functions as R package is based on Python one"
                 }
             ]
         },
@@ -71,7 +71,7 @@ var data = {
                 },
                 {
                     name: "Growth",
-                    r: 0,
+                    r: 1,
                     py: 2,
                     rationale: "The Tensorflow framework and Keras are backed by Google and growing rapidly."
                 },
@@ -80,20 +80,20 @@ var data = {
         {
             name: "Execution Performance & Output",
             total_rationale: "Both are similar in terms of execution (they both use the same python backend.) For jupyter notebooks, the R package has a bug and does not display the output during the training of the model to the notebook",
-            weight: 0.30,
+            weight: 0.25,
             total_r: "3",
             total_python: "5",
             subcategories: [{
                     name: "Average Execution Time",
                     r: 1,
                     py: 1,
-                    rationale: ""
+                    rationale: "Both rely on Tensorflow and have same execution"
                 },
                 {
                     name: "Output Quality & Effectiveness",
                     r: 2,
                     py: 2,
-                    rationale: ""
+                    rationale: "Both create visually pleasing graphs"
                 }, {
                     name: "Console Output Clarity",
                     r: 0,
@@ -106,7 +106,7 @@ var data = {
             name: "Scalability & Transferability",
             total_rationale: "Both let you export the models to e.g. Google's ANN Cloud offerinng. However, the python process is more straight forward and you store the data as a python data object.",
             weight: 0.25,
-            total_r: "3",
+            total_r: "2",
             total_python: "5",
             subcategories: [{
                     name: "Transferability",
@@ -124,15 +124,15 @@ var data = {
                     name: "Function Customization",
                     r: 2,
                     py: 2,
-                    rationale: ""
+                    rationale: "They are interfaces to same underlying Tensorflow"
                 },
             ]
         },
         {
-            name: "Training & Testing",
+            name: "Training & Support",
             total_rationale: "Both libraries are well documented and easy to use. The community around the python lib is bigger as it does not only provide a cross language interface.",
-            weight: 0.15,
-            total_r: "4",
+            weight: 0.20,
+            total_r: "3",
             total_python: "5",
             subcategories: [{
                     name: "Community Support",
@@ -144,13 +144,13 @@ var data = {
                     name: "Ease of Learning",
                     r: 1,
                     py: 1,
-                    rationale: ""
+                    rationale: "Same as both are based on python's Keras"
                 },
                 {
                     name: "Time to Proficiency",
                     r: 2,
                     py: 2,
-                    rationale: ""
+                    rationale: "Same as they provide same interface"
                 },
             ]
         },

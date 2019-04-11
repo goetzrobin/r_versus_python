@@ -13,14 +13,14 @@ block content
                 table.table.col-12
                     tr
                         th Metric
-                        th R
                         th Python
+                        th R
                     each score in data.scores
                         tr
                             td 
                                 a(href = score.url) #{score.name}
-                            td #{score.total_r}
                             td #{score.total_python}
+                            td #{score.total_r}
         .row.mt-3
             .col-12
                 h3 Detailed View

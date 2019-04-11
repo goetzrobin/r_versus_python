@@ -72,7 +72,7 @@ var data = {
         total_rationale: " Python executes more than twice as fast (0.13 sec vs 0.28 sec) as R. However, predictions are more accurate (98.2% vs 97.6%) in R than in Python.",
         total_r: "4",
         total_python: "4",
-        weight: 0.30,
+        weight: 0.25,
         subcategories: [{
             name: "Average Execution Time",
             r: 0,
@@ -116,7 +116,7 @@ var data = {
         total_rationale: "Python is easier to learn due to its intuitive nature of the code",
         total_r: "4",
         total_python: "5",
-        weight: 0.15,
+        weight: 0.20,
         subcategories: [{
             name: "Ease of Learning",
             r: 0,
