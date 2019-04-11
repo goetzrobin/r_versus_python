@@ -12,9 +12,10 @@ module.exports.getMenu = function getMenu() {
         {
             name: "Techniques",
             url: "technique",
-            children: [{
-                    name: "Association Rule",
-                    url: "assoc_rule"
+            children: [
+                {
+                    name: "Reinforcement Learning",
+                    url: "reinforcement_learning"
                 },
                 {
                     name: "Artificial Neural Network",
@@ -25,8 +26,8 @@ module.exports.getMenu = function getMenu() {
                     url: "random_forest"
                 },
                 {
-                    name: "Reinforcement Learning",
-                    url: "reinforcement_learning"
+                    name: "Association Rule",
+                    url: "assoc_rule"
                 },
                 {
                     name: "K-Means Clustering",
