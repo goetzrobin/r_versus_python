@@ -1,4 +1,4 @@
-FROM continuumio/anaconda3 as setup
+FROM continuumio/anaconda3:5.3.0 as setup
 RUN conda install -y r-essentials
 RUN conda install -y tensorflow
 RUN conda install -y r-keras
