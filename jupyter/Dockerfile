@@ -3,8 +3,8 @@ RUN conda install -y r-essentials
 RUN conda install -y tensorflow
 RUN conda install -y r-keras
 RUN conda install -y r-catools
-RUN conda install -c conda-forge r-arules
 RUN pip install keras
+# RUN conda install -y -c conda-forge r-arules 
 
 FROM setup
 RUN jupyter notebook --generate-config
