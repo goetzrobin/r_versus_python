@@ -192,7 +192,7 @@ a:hover {
   background-color: #dfdfdf !important;
 }
 
-img[alt=explanation] { width: 500px; }
+img[alt=explanation] { max-width: 500px; width: 100%; }
 
 .comparison_detailed_view_metrics {
   flex: 0 0 25%;

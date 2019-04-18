@@ -1,7 +1,7 @@
 var data = {
         name: "K-Means Clustering",
         intro: "K-Means Clustering is an operation that can be performed to separate different data points in a data set into different clusters based off criteria that you specify. K-Means clustering groups the points into their most optimal clusters by measuring the euclidean distance between the points and the center of a cluster.",
-        rationale: "random_forest",
+        rationale: "kmeans",
         // K-Means Clustering can be used by Google and other companies in order to separate customers/users into different groups. Once separated, Google can target the different groups with different adds, provide different search results, and customize their entire online experiences based off what cluster of users they belong to.",
         real_world_apps: [{
                 id: 0,

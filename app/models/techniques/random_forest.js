@@ -19,8 +19,8 @@ var data = {
         icon_style: "fas"
     }, ],
     code: {
-        py: "/DecisionTreeClassification/Python.ipynb",
-        r: "/DecisionTreeClassification/R.ipynb"
+        py: "/RandomForest/Python.ipynb",
+        r: "/RandomForest/R.ipynb"
     },
     scores_explanation: "Overall, Python is the preferred choice thanks to faster execution and more intuitive code, which makes it easier to learn and program",
     scores: [{

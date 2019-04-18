@@ -21,6 +21,10 @@ block content
                                 a(href = score.url) #{score.name}
                             td #{score.total_python}
                             td #{score.total_r}
+                    tr
+                        th Total
+                        th #{data.final_score_py}
+                        th #{data.final_score_r}
         .row.mt-3
             .col-12
                 h3 Detailed View
@@ -52,7 +56,7 @@ block content
                                     td #{technique.scores[index].total_r}
                                     td 
                                         small.d-block #{technique.scores[index].total_rationale}
-        
+
         each score,index in data.techniques[0].scores
             .row
                 .col-12
