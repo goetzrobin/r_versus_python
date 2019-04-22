@@ -129,7 +129,7 @@ var data = {
         ]
     },
     {
-        name: "Training & Testing",
+        name: "Training & Support",
         total_rationale: "Both libraries are well documented and easy to use. The community around the python lib is bigger as it does not only provide a cross language interface.",
         weight: 0.20,
         total_r: "4",

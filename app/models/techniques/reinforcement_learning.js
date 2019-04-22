@@ -102,7 +102,7 @@ var data = {
             rationale: " Variables in both Python and R can be customized."
         }, ]
     }, {
-        name: "Training & Testing",
+        name: "Training & Support",
         total_rationale: "Technique is easy to understand and utilize in both languages.",
         total_r: "5",
         total_python: "5",

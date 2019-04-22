@@ -112,7 +112,7 @@ var data = {
             rationale: "Both libraries from R and Python allow programmers to customize with different variables"
         }, ]
     }, {
-        name: "Training & Testing",
+        name: "Training & Support",
         total_rationale: "Python is easier to learn due to its intuitive nature of the code",
         total_r: "4",
         total_python: "5",

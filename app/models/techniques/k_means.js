@@ -124,7 +124,7 @@ var data = {
                 ]
             },
             {
-                name: "Training & Testing",
+                name: "Training & Support",
                 total_rationale: "Both libraries are well documented and easy to pick up quickly and to learn.",
                 weight: 0.20,
                 total_r: "5",

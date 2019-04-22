@@ -112,7 +112,7 @@ var data = {
                 rationale: " A large amount of customization is possible for how the data is to be analyzed for both Python and R "
             }, ]
         }, {
-            name: "Training & Testing",
+            name: "Training & Support",
             total_rationale: " Given that Python was simpler to learn, it took less time to become proficient with the language ",
             total_r: "3",
             total_python: "5",

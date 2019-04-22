@@ -107,7 +107,7 @@ var data = {
             rationale: " Both Python & R are capable of customing the output with the same library.          "
         }, ]
     }, {
-        name: "Training & Testing",
+        name: "Training & Support",
         total_rationale: " Both Python and R have broad community support and user libraries with various tutorials          ",
         total_r: "5",
         total_python: "5",
