@@ -1,23 +1,23 @@
 var data = {
-    name: "Reinforcement Learning",
-    intro: " Reinforcement learning, using the upper confidence bound (UCB) algorithm, can offer valuable insight when evaluating a company’s advertisements because it helps to determine which advertisement in a campaign will maximize returns. The algorithm tracks click through rates (CTRs) for various ads in a campaign. It will use this information to learn which ad has the highest CTR so that it will only show users on social networks the ads that will bring in the best results.",
-    rationale: "reinforcement_learning",
+    name: "Polynomial Regression",
+    intro: "Polynomial Regression",
+    rationale: "polynomial_regression",
     real_world_apps: [{
         id: 0,
-        name: "Targeted Ad Selection",
-        icon_name: "ad",
+        name: "Depenedence Analysis",
+        icon_name: "chart-line",
         icon_style: "fas"
     }, ],
     code: {
-        py: "/ReinforcementLearning/Python.ipynb",
-        r: "/ReinforcementLearning/R.ipynb"
+        py: "/PolyReg/Python.ipynb",
+        r: "/PolyReg/R.ipynb"
     },
     scores_explanation: "For reinforcement learning using the upper confidence bound algorithm, both Python and R would suffice and will provide adequate results. The user may decide to use one over the other based on previous experience with the languages.",
     scores: [{
         name: "Code Volume and Ease of Use ",
         total_rationale: "Volume of code and readability is comparable for both languages.",
-        total_r: "4",
-        total_python: "3",
+        total_r: "3",
+        total_python: "5",
         weight: 0.20,
         subcategories: [{
             name: "Code Volume",
@@ -38,7 +38,7 @@ var data = {
     }, {
         name: "Popularity & Library",
         total_rationale: "Both languages require coding the algorithm from scratch, without the support of specific libraries created for this technique.",
-        total_r: "2",
+        total_r: "4",
         total_python: "3",
         weight: 0.10,
         subcategories: [{
@@ -61,7 +61,7 @@ var data = {
         name: "Execution Performance & Output",
         total_rationale: "Execution time is highly comparable for Python and R, and both provide effective output for further understanding.",
         total_r: "5",
-        total_python: "4",
+        total_python: "5",
         weight: 0.25,
         subcategories: [{
             name: "Average Execution Time",
@@ -83,7 +83,7 @@ var data = {
         name: "Scalability & Transferability",
         total_rationale: "It is easy to transfer new datasets in both languages and have similar abilities to scale.",
         total_r: "3",
-        total_python: "3",
+        total_python: "5",
         weight: 0.25,
         subcategories: [{
             name: "Transferability",
@@ -104,7 +104,7 @@ var data = {
     }, {
         name: "Training & Testing",
         total_rationale: "Technique is easy to understand and utilize in both languages.",
-        total_r: "5",
+        total_r: "3",
         total_python: "5",
         weight: 0.20,
         subcategories: [{
@@ -126,8 +126,8 @@ var data = {
     }, ],
     verdict: {
         stars: {
-            r: 5,
-            py: 4
+            r: 4,
+            py: 5
         },
         text: {
             r: "R is slightly better than Python for this technique. The main reason a user might choose to use R over Python is that the graphical output produced is slightly more appealing.",

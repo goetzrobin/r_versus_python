@@ -26,16 +26,16 @@ module.exports.getMenu = function getMenu() {
                     url: "random_forest"
                 },
                 {
-                    name: "Association Rule",
-                    url: "assoc_rule"
-                },
-                {
                     name: "K-Means Clustering",
                     url: "k_means"
                 },
                 {
                     name: "Natural Language Processing",
                     url: "nlp"
+                },
+                {
+                    name: "Polynomial Regression",
+                    url: "poly"
                 },
             ]
 

@@ -69,20 +69,20 @@ var data = {
         }, ]
     }, {
         name: "Execution Performance & Output",
-        total_rationale: " Python executes more than twice as fast (0.13 sec vs 0.28 sec) as R. However, predictions are more accurate (98.2% vs 97.6%) in R than in Python.",
+        total_rationale: " Python executes faster than R (0.13 sec vs 0.28 sec). Predictions are both very accurate (98%) in Python and R. ",
         total_r: "4",
-        total_python: "4",
+        total_python: "5",
         weight: 0.25,
         subcategories: [{
             name: "Average Execution Time",
             r: 0,
             py: 1,
-            rationale: "Python executes more than twice as fast (0.13 sec vs 0.28 sec) as R"
+            rationale: "Python executes at a faster speed than R (0.13 sec vs 0.28 sec)"
         }, {
             name: "Output Quality & Effectiveness",
             r: 2,
             py: 1,
-            rationale: "Predictions are more accurate (98.2% vs 97.6%) in R than in Python."
+            rationale: "Predictions both have high accuracy in Python (98%) and R (98%)"
         }, {
             name: "Console Output Clarity",
             r: 2,
@@ -137,11 +137,11 @@ var data = {
     verdict: {
         stars: {
             r: 4.1,
-            py: 4.4
+            py: 4.6
         },
         text: {
-            r: "R provides similar capabilities for Random Forest Classification models with cleaner code and slightly higher accuracy. However, the code in R is not intuitive, which makes it difficult for new programmers to learn. Also, R executes much more slowly and is less transferable for a new data set",
-            py: "Overall, Python is the preferred choice thanks to faster execution and more intuitive code, which makes it easier to learn and program. The sacrifice of accuracy in Python is not significant."
+            r: "R provides similar capabilities for Random Forest Classification models with cleaner code. However, the code in R is not intuitive, which makes it difficult for new programmers to learn. Also, R executes more slowly and is less transferable for a new data set.",
+            py: "Python is still the preferred choice thanks to faster execution and more intuitive code, which makes it easier to learn and program. Python and R both have very accurate (~98%) predictions. One minor downside is that Python has lengthier code."
         }
     }
 }
