@@ -16,9 +16,10 @@ router.get('/:technique_id', function (req, res, next) {
     total_python += (parseFloat(score.total_python)*score.weight);
   })
 
-  total_r = total_r.toFixed(1);
-  total_python = total_python.toFixed(1);
-
+  total_r = (Math.round(total_r * 10.0) /10.0).toFixed(1);;
+  total_python = (Math.round(total_python * 10.0) /10.0).toFixed(1);
+  console.log(total_r)
+  console.log(total_python)
 
   
   r_source = jupyter_url + technique.code.r;

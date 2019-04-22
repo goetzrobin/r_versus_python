@@ -5,12 +5,12 @@ var data = {
     real_world_apps: [{
         id: 0,
         name: "Dependency Analysis",
-        icon_name: " chart-line ",
+        icon_name: "chart-line",
         icon_style: "fas"
     }, {
         id: 1,
         name: "Advanced Analytics",
-        icon_name: " analytics ",
+        icon_name: "chart-bar",
         icon_style: "fas"
     }, ],
     code: {
