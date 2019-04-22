@@ -136,8 +136,8 @@ var data = {
     }, ],
     verdict: {
         stars: {
-            r: 4.1,
-            py: 4.6
+            r: 4,
+            py: 5
         },
         text: {
             r: "R provides similar capabilities for Random Forest Classification models with cleaner code. However, the code in R is not intuitive, which makes it difficult for new programmers to learn. Also, R executes more slowly and is less transferable for a new data set.",

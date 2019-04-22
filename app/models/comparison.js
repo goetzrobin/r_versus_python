@@ -22,8 +22,8 @@ function getTechniqueScore(technique){
         total_r += (parseInt(score.total_r)*score.weight);
         total_python += (parseInt(score.total_python)*score.weight);
       });
-      total_r = total_r.toFixed(1);
-      total_python = total_python.toFixed(1);
+      total_r = (Math.round(total_r * 10.0) /10.0).toFixed(1);
+      total_python = (Math.round(total_python * 10.0) / 10.0).toFixed(1);
     return {
         name: technique.name,
         total_r,

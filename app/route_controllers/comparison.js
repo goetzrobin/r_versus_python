@@ -19,8 +19,9 @@ router.get('/', function (req, res, next) {
       count++;
     }
   }
-  req.data.final_score_r = (average_r / count).toFixed(1);
-  req.data.final_score_py = (average_py / count).toFixed(1);
+
+  req.data.final_score_r = Math.round(average_r * 10.0 / count) / 10.0;
+  req.data.final_score_py = Math.round(average_py * 10.0 / count) / 10.0;
   req.data.techniques = techniqueModel.getAllTechniques(true);
   req.data.scores = scores;
   res.render('./sites/comparison', {

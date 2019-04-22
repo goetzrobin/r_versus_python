@@ -10,23 +10,23 @@ var poly = require("./techniques/poly");
 
 function getDetailView(technique_id) {
     var techniques = {
-        reinforcement_learning,
-        ann,
-        random_forest,
-        k_means,
         nlp,
-        poly
+        random_forest,
+        reinforcement_learning,
+        k_means,
+        poly,
+        ann,
     }
     return techniques[technique_id];
 }
 function getAllTechniques(asArray){
     var techniques = {
-        reinforcement_learning,
-        ann,
-        random_forest,
-        k_means,
         nlp,
-        poly
+        random_forest,
+        reinforcement_learning,
+        k_means,
+        poly,
+        ann
     }
     if(asArray){
         var result = []
