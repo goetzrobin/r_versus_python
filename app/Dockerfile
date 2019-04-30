@@ -1,7 +1,4 @@
-FROM node:alpine
-WORKDIR /app
-ADD package.json /app/package.json
-RUN npm install
+FROM goetzrobin/final_project_app
 ADD . /app
 EXPOSE 3000
 CMD npm run start
